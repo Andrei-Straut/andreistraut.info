@@ -1,2 +1,3 @@
 /target/
 /nb-configuration.xml
+/src/main/resources/com/andreistraut/freelancerwar/sbfw/config/config.properties
