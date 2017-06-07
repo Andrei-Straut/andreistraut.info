@@ -517,22 +517,21 @@
 
         <!-- Deferred CSS Loading -->
         <noscript id="deferred-styles">
+            <!-- Bootstrap Core CSS -->
+            <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 
-        <!-- Bootstrap Core CSS -->
-        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+            <!-- Theme CSS -->
+            <link href="css/freelancer.min.css" rel="stylesheet">
 
-        <!-- Theme CSS -->
-        <link href="css/freelancer.min.css" rel="stylesheet">
+            <!-- Custom CSS -->
+            <link href="css/custom.min.css" rel="stylesheet">
 
-        <!-- Custom CSS -->
-        <link href="css/custom.min.css" rel="stylesheet">
+            <!-- Custom Fonts -->
+            <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
-        <!-- Custom Fonts -->
-        <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-
-        <!-- Font-Awesome -->
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+            <!-- Font-Awesome -->
+            <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+            <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
         </noscript>
 
         <!-- Deferred CSS Loading - JS -->
@@ -557,21 +556,28 @@
         <!-- jQuery -->
         <script src="vendor/jquery/jquery.min.js"></script>
 
+        <!-- Plugin JavaScript -->
+        <script src="vendor/jquery/jquery.easing.min.js"></script>
+
         <!-- Bootstrap Core JavaScript -->
         <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-        <!-- Plugin JavaScript -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-
-        <!-- Contact Form JavaScript -->
-        <script src="js/jqBootstrapValidation.min.js"></script>
-        <script src="js/contactMe.min.js"></script>
 
         <!-- Theme JavaScript -->
         <script src="js/freelancer.min.js"></script>
 
+        <!-- Contact Form JavaScript -->
+        <script async src="js/jqBootstrapValidation.min.js"></script>
+        <script async src="js/contactMe.min.js"></script>
+
         <!-- Google Analytics -->
-        <script src="js/analytics.js"></script>
+        <script async type="text/javascript">
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+            ga('create', 'UA-100610555-1', 'auto');
+            ga('send', 'Landing Page');
+        </script>
 
     </body>
 
