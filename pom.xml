@@ -10,11 +10,14 @@
     <name>andreistraut.info</name>
 
     <properties>
+        
+        <deploymentName>sbfw</deploymentName>
+        <wildfly-maven-plugin-version>1.1.0.Final</wildfly-maven-plugin-version>
+        
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <wildfly-maven-plugin-version>1.1.0.Final</wildfly-maven-plugin-version>
     </properties>
     
     <dependencies>
@@ -108,8 +111,8 @@
                 <version>${wildfly-maven-plugin-version}</version>
                 <configuration>
                     <id>andrei-straut-wildfly</id>
-                    <name>${project.artifactId}.war</name>
-                    <runtimeName>${project.artifactId}.war</runtimeName>
+                    <name>${deploymentName}.war</name>
+                    <runtimeName>${deploymentName}.war</runtimeName>
                     <force>true</force>
                     <port>9993</port>
                     <protocol>https-remoting</protocol>
