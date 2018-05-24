@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/andreistraut
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://andreistraut.info
+  * I am andreistraut (https://keybase.io/andreistraut) on keybase.
+  * I have a public key ASDkkwVBCXmh23jZAzyhhKNHWOhF0WDOFunigys9JDzlAgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120e49305410979a1db78d9033ca184a34758e845d160ce16e9e2832b3d243ce5020a",
+      "host": "keybase.io",
+      "kid": "0120e49305410979a1db78d9033ca184a34758e845d160ce16e9e2832b3d243ce5020a",
+      "uid": "4bfee009610fce8215de7a3050587519",
+      "username": "andreistraut"
+    },
+    "merkle_root": {
+      "ctime": 1527169026,
+      "hash": "353481bbaaae9cb360e0a0434004957dadfe543b2c37ec4730d6f296f723ed747b0ebe1970493a60f65e5ff64e75bf1d6cd1fe5ac708eaa72e72602ebc4b65a0",
+      "hash_meta": "67d1459c53c594674068b00a7506c8660fe55578b312bc8d2cd23e084d58fe08",
+      "seqno": 2894896
+    },
+    "service": {
+      "entropy": "+1VlnDIQV8xFSFyf+fG5+rVb",
+      "hostname": "andreistraut.info",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.48"
+  },
+  "ctime": 1527169041,
+  "expire_in": 504576000,
+  "prev": "f541d11ba8872563b74ff62e29f7bc602464bfc3b260c7bb36caf72a1ed0c09c",
+  "seqno": 7,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg5JMFQQl5odt42QM8oYSjR1joRdFgzhbp4oMrPSQ85QIKp3BheWxvYWTESpcCB8Qg9UHRG6iHJWO3T/YuKfe8YCRkv8OyYMe7Nsr3Kh7QwJzEIHgemAC8peOJH6vqHepn3l+kUVcfXLv0fUYlr4trjMXgAgHCo3NpZ8RAnRrxuMurRHoaQo8M4mwP//YFiuY9NiKimRwjlFVoDusUsDkr6bVXUuzIc/BhhtsI6ogaYqyPtPBECIikg+WRB6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIFvhXQ1sAG3a3PIDvPtTPX5NdeduglSVwP/R/DzlsaXxo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/andreistraut
+
+==================================================================
